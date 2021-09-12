@@ -297,14 +297,12 @@ article i {
 
 /*Main - end*/
 
-/*Footer- start*/
+/*Footer - start*/
 
 footer {
   background-color: #080820;
   color: #ffffff;
-  width: 100%;
-  height: 240px;
-  margin-bottom: 0;
+  height: 290px;
 }
 
 footer h3 {
@@ -316,8 +314,8 @@ footer h3 {
   display: inline-block;
   width: 180px;
   position: relative;
-  top: 10%;
-  left: 2%;
+  bottom: 22%;
+  left: 5%;
 }
 
 footer h3 {
@@ -326,13 +324,14 @@ footer h3 {
 
 .consulting ul li {
   margin-bottom: 10px;
+  line-height: 1.4;
 }
 
 .social-media {
   display: inline-block;
   position: relative;
-  top: 34%;
-  right: 7%;
+  top: 3%;
+  right: 3%;
 }
 
 .social-media i {
@@ -343,10 +342,47 @@ footer h3 {
   color: #000000;
   float: left;
   margin-right: 15px;
+  opacity: 60%;
 }
 
 .extra-links {
   display: inline-block;
   position: relative;
-  left: 25%;
+  left: 22%;
+  bottom: 51%;
 }
+
+.extra-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 148px;
+  width: 200px;
+}
+
+.extra-links ul li {
+  display: block;
+  padding: 5px;
+}
+.extra-links ul li a {
+  color: #c79d63;
+  text-decoration: none;
+}
+
+.insta-widget {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 13%;
+  width: 310px;
+}
+
+.insta-widget ul li {
+  display: inline-block;
+}
+
+.insta-widget ul li a img {
+  width: 100px;
+}
+
+/*Footer - end*/
